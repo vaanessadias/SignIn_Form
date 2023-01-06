@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+  <body>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="form-container">
+        <form>
+
+            <h3>Sign In</h3>
+            <div class="input-container">
+                <input type="text" placeholder="Nome">
+                <i data-feather="user"></i>
+            </div>
+            <div class="input-container">
+                <input type="password" placeholder="Senha">
+                <i data-feather="lock"></i>
+            </div>
+            <div class ="options-container">
+                <div class="checkbox">
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Lembre-se de Mim</label>
+                </div><a href="www.google.com">Nova Senha</a>
+            </div>
+
+            <input type="submit" value="Entrar">
+            <p>ou Cadastre-se</p>
+            <div class ="social-media-cont">
+                <div class="icon-container">
+                    <i data-feather="facebook"></i>
+                </div>
+                <div class="icon-container">
+                    <i data-feather="mail"></i>
+                </div>
+                <div class="icon-container">
+                    <i data-feather="twitter"></i>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>
